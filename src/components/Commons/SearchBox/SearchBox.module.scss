@@ -1,0 +1,74 @@
+.searchBox {
+  width: 380px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 4px solid #F9C40B;
+  background: #162032;
+
+  .searchInput {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    flex-grow: 5;
+    height: 60px;
+    max-width: calc(100% - 100px - 20px);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    cursor: pointer;
+    background-color: #162032;
+    color: #F9C40B;
+    opacity: 0.9;
+  }
+
+  .searchIcon {
+    width: 28px;
+    height: 28px;
+  
+    &:hover {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .searchDropdown {
+    list-style-type: none;
+    overflow-y: scroll;
+    background: #ffffff;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    max-width: calc(100% - 100px - 20px);
+
+    .searchDropdownLoad {
+      text-align: center;
+    }
+
+    .searchDropdownItem {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 4px;
+      padding-left: 4px;
+      transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
+      cursor: pointer;
+
+      &:hover {
+        background: grey;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .cityCard {
+    background: #F9C40B;;
+    width: 560px;
+    height: 360px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+  }
+}

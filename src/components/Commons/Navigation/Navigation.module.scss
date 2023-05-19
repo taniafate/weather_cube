@@ -1,0 +1,42 @@
+.navigationBlock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+ .navigation {
+    background: #0D182D;
+    color: #F9C40B;
+    width: 190px;
+    height: 70px;
+    margin-bottom: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navigationS {
+  background:  #162032;
+  border-bottom: 2px solid #F9C40B;
+  color: #F9C40B;
+  width: 190px;
+  height: 70px;
+  margin-bottom: 0px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+  .navigation:link {
+    color: #F9C40B;
+  }
+  .navigation:hover {
+    background: #0D2450;
+  }
+}
