@@ -74,7 +74,7 @@
     height: 232px;
     left: 184px;
     top: 86px;
-    z-index: -1;
+    z-index: -2;
   }
   
   .picBig {
@@ -100,7 +100,7 @@
     filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
     position: fixed;
     align-items: center;
-    z-index: 0;
+    z-index: -1;
     top: 120px;
 
     .forecastBox {
