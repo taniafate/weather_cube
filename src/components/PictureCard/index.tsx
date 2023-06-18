@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './PictureCard.module.scss';
 
 export const PictureCard = () => {

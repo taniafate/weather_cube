@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  box-sizing: border-box;
   
  .navigation {
     background: #0D182D;
@@ -16,10 +17,11 @@
     flex-wrap: nowrap;
     text-decoration: none;
     font-size: 1.2rem;
+    box-sizing: border-box;
 }
 
-.navigationS {
-  background:  #162032;
+.navigationActive {
+  background:  #0b214a;
   border-bottom: 2px solid #F9C40B;
   color: #F9C40B;
   width: 190px;
@@ -32,11 +34,12 @@
   flex-wrap: nowrap;
   text-decoration: none;
   font-size: 1.2rem;
+  box-sizing: border-box;
 }
   .navigation:link {
     color: #F9C40B;
   }
   .navigation:hover {
-    background: #0D2450;
+    background: #162032;
   }
 }

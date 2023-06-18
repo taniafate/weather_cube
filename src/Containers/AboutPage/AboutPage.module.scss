@@ -1,0 +1,56 @@
+.aboutPageWrapper {
+  display: grid;
+  justify-items: center;
+  
+  .headerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .aboutBlock {
+    width: 1120px;
+    height: 720px;
+    background-image: url('../../assets/AboutProject.png');
+    color: #F9C40B;
+    align-items: center;
+    filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
+    position: fixed;
+    z-index: 0;
+    top: 120px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    .aboutBlockText {
+      text-align: center;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 950px;
+      
+      .aboutBlockParts {
+        text-align:left;
+        font-size: 20px;
+        font-weight: 300;
+        box-sizing: border-box;
+        line-height: 140%;
+        margin: 7px 0 7px 0;
+      }
+
+      .aboutBlockDetails {
+        text-align:right;
+        font-size: 15px;
+        font-weight: 300;
+        box-sizing: border-box;
+        line-height: 140%;
+        position: fixed;
+        bottom: 210px;
+        right: 90px;
+      }
+    }
+  }
+}

@@ -11,4 +11,14 @@
   &:hover {
     background: #FECA13;
   }
+
+  .searchIcon {
+    width: 28px;
+    height: 28px;
+  
+    &:hover {
+      width: 30px;
+      height: 30px;
+    }
+  }
 }

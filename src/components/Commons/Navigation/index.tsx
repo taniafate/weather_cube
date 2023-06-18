@@ -1,26 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { routes } from '../../../utils/constants/routes';
 import styles from './Navigation.module.scss';
 
-export const NavigationHome = () => {
-  return (
-    <nav className={styles.navigationBlock}>
-      <ul>
-        <Link to={routes.HOME} className={styles.navigationS}>Home</Link>
-        <Link to={routes.FAVOURITES} className={styles.navigation}>Favourites</Link>
-      </ul>
-    </nav>
-  )
-}
+const setActive = ({ isActive }: { isActive: boolean }): string => isActive ? styles.navigationActive : styles.navigation;
 
-export const NavigationFav = () => {
+export const Navigation = () => {
   return (
-    <nav className={styles.navigationBlock}>
-      <ul>
-        <Link to={routes.HOME} className={styles.navigation}>Home</Link>
-        <Link to={routes.FAVOURITES} className={styles.navigationS}>Favourites</Link>
-      </ul>
-    </nav>
+    <>
+      <nav className={styles.navigationBlock}>
+        <ul>
+          <NavLink to={routes.HOME} className={setActive}>Home</NavLink>
+          <NavLink to={routes.ABOUT} className={setActive}>About App</NavLink>
+        </ul>
+      </nav>
+    </>
   )
-}
+};

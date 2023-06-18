@@ -1,0 +1,46 @@
+.forecastItem {
+    width: 200px;
+    height: 240px;
+    box-sizing: border-box;  
+    background: #0c1a33;
+    border-top: 2px solid #F9C40B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px  8px 8px 8px;
+    justify-content: baseline;
+
+  .forecastItemDay {
+      box-sizing: border-box; 
+      color: #F9C40B; 
+      margin-bottom: 12px;
+      margin-top: 18px;
+      font-size: 22px;
+      font-weight: 500;
+      opacity: 90%;
+  }
+
+  .forecastItemDate {
+      box-sizing: border-box; 
+      color: #F9C40B;
+      font-size: 16px;
+      font-weight: 300;
+  }
+
+  .forecastItemTemp {
+      box-sizing: border-box; 
+      color: #F9C40B;
+      margin-top: 32px;
+      font-size: 32px;
+      font-weight: 400;
+  }
+
+  .forecastItemFeels {
+      box-sizing: border-box; 
+      color: #F9C40B;
+      margin-bottom: 6px;
+      margin-top: 44px;
+      font-size: 16px;
+      font-weight: 300;
+  }
+}

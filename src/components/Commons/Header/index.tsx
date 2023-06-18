@@ -1,21 +1,14 @@
-import React from 'react';
-import { NavigationFav, NavigationHome } from '../Navigation';
+import { ReactNode } from 'react';
 import styles from './Header.module.scss';
 
-export const HeaderHome = () => {
-  return (
-    <header className={styles.header}>
-      <NavigationHome />
-      <div className={styles.logo}><span className={styles.logoName}>WEATHER.CUBE</span></div>
-    </header>
-  );
-};
+type THeaderProps = {
+  children: ReactNode;
+}
 
-export const HeaderFav = () => {
+export const Header = ({ children }: THeaderProps) => {
   return (
     <header className={styles.header}>
-      <NavigationFav />
-      <div className={styles.logo}><span className={styles.logoName}>WEATHER.CUBE</span></div>
+      { children }
     </header>
   );
 };

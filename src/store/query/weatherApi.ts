@@ -1,19 +1,23 @@
-import { API_KEY } from '../../utils/constants';
-
 import { moduleApi } from '.';
-import { cityCardType, CityType } from '../../types';
+import { TCityCardType, TCityType, TForecastType } from '../../types';
 
 export const weatherApi = moduleApi.injectEndpoints({
   endpoints: (build) => ({
-    getCity: build.query<CityType[], string>({
+    getCity: build.query<TCityType[], string>({
       query: (city: string) => ({
-        url: `/geo/1.0/direct?q=${city.trim()}&limit=5&lang=en&appid=${API_KEY}`,
+        url: `/geo/1.0/direct?q=${city.trim()}&limit=5&lang=en&appid=${process.env.REACT_APP_OWAPI_KEY}`,
         method: 'GET',
       }),
     }),
-    getForecast: build.query<cityCardType[], string>({
-      query: (name: string) => ({
-        url: `/data/2.5/weather?q=${name}&&units=metric&appid=${API_KEY}`,
+    getCityWeather: build.query<TCityCardType, string>({
+      query: (city: string) => ({
+        url: `/data/2.5/weather?q=${city}&&units=metric&appid=${process.env.REACT_APP_OWAPI_KEY}`,
+        method: 'GET',
+      }),
+    }),
+    getForecast: build.query<TForecastType, string>({
+      query: (location: string) => ({
+        url: `/data/2.5/forecast?q=${location}&&units=metric&appid=${process.env.REACT_APP_OWAPI_KEY}`,
         method: 'GET',
       }),
     }),
@@ -21,4 +25,4 @@ export const weatherApi = moduleApi.injectEndpoints({
   overrideExisting: false,
 });
 
-export const { useGetCityQuery, useLazyGetForecastQuery } = weatherApi;
+export const { useGetCityQuery, useLazyGetCityWeatherQuery, useLazyGetForecastQuery } = weatherApi;

@@ -1,4 +1,5 @@
 export const routes = {
   HOME: '/',
-  FAVOURITES: '/favourites',
+  ABOUT: '/about',
+  NOTFOUNDPAGE: '*',
 };

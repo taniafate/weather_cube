@@ -1,5 +1,5 @@
 .cityCard {
-  background: #F9C40B;;
+  background: #F9C40B;
   width: 560px;
   height: 360px;
   box-sizing: border-box;
@@ -7,33 +7,95 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 20px 20px 20px;
+  padding: 26px 20px 26px 20px;
+  color: #041430;
+  position: static;
+  transform: scaleX(1);
+  transition: transform 1s ease-out;
 
-  .cityCardTitle {
-    align-items: center;
-    height: 40px;
-    width: 100%;
-    background: #b7b7b7;
+  .cityCardHead {
     display: flex;
     justify-content: space-between;
+    justify-items: center;
+    align-items:normal;
+    width: 100%;
+
+    .cityCardTime {
+      position: fixed;
+      top: 24px;
+      left: 490px;
+      color: #041430;
+      height: 40px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+
+    .cityCardTitle {
+      align-items: center;
+      height: 40px;
+      background: #F9C40B;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      color: #041430;
+  
+      .cityCardTitleName {
+        position: fixed;
+        left: 24px;
+        top: 24px;
+        display: inline-block;
+        align-self: flex-start;
+        color: #041430;
+        font-size: 24px;
+        font-weight: 600;
+      }
+  
+      .cityCardTitleCountry {
+        display: inline-block;
+        position: fixed;
+        align-self: flex-start;
+        left: 24px;
+        top: 54px;
+        color: #041430;
+        font-size: 18px;
+      }
+    }
   }
 
   .cityCardTemp {
     align-items: center;
-    height: 170px;
     width: 100%;
-    background: #b7b7b7;
+    background: #F9C40B;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #041430;
+
+    .cityCardTempMain {
+      font-size: 80px;
+      font-weight: 400;
+      color: #041430;
+    }
+
+    .cityCardTempSec {
+      font-size: 18px;
+      font-weight: 400;
+      color: #041430;
+    }
   }
 
   .cityCardDetails {
     align-items: center;
-    height: 70px;
     width: 100%;
-    background: #b7b7b7;
+    background: #F9C40B;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 38px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
+}
+
+.cityCard:hover {
+  transform: scaleX(-1);
 }

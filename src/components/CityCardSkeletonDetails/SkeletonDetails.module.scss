@@ -1,0 +1,16 @@
+.skeleton {
+  display: flex;
+  align-items: center;
+
+  .skeletonIcon {
+    margin-right: 6px;
+    fill-opacity: 0.8;
+    stroke-opacity: 0.8;
+  }
+
+  .skeletonInfo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #041430;
+  }
+}
