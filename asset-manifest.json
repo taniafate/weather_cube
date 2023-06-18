@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weather_cube/static/css/main.6afa8297.css",
-    "main.js": "/weather_cube/static/js/main.1f703341.js",
+    "main.js": "/weather_cube/static/js/main.973d00c7.js",
     "static/css/454.83d6f3dd.chunk.css": "/weather_cube/static/css/454.83d6f3dd.chunk.css",
     "static/js/454.5f6e87ab.chunk.js": "/weather_cube/static/js/454.5f6e87ab.chunk.js",
     "static/css/409.090013b0.chunk.css": "/weather_cube/static/css/409.090013b0.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/Pressure.svg": "/weather_cube/static/media/Pressure.b198f8a3091c18c3c38a0f21fef7d3dd.svg",
     "static/media/Humidity.svg": "/weather_cube/static/media/Humidity.0b44006bf9f24d234a71c65130bdeec2.svg",
     "main.6afa8297.css.map": "/weather_cube/static/css/main.6afa8297.css.map",
-    "main.1f703341.js.map": "/weather_cube/static/js/main.1f703341.js.map",
+    "main.973d00c7.js.map": "/weather_cube/static/js/main.973d00c7.js.map",
     "454.83d6f3dd.chunk.css.map": "/weather_cube/static/css/454.83d6f3dd.chunk.css.map",
     "454.5f6e87ab.chunk.js.map": "/weather_cube/static/js/454.5f6e87ab.chunk.js.map",
     "409.090013b0.chunk.css.map": "/weather_cube/static/css/409.090013b0.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.6afa8297.css",
-    "static/js/main.1f703341.js"
+    "static/js/main.973d00c7.js"
   ]
 }
