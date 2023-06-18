@@ -1,5 +1,5 @@
 export const routes = {
-  HOME: '/',
+  HOME: '/weather_cube/',
   ABOUT: '/about',
   NOTFOUNDPAGE: '*',
 };

@@ -3,7 +3,7 @@ import styles from './NotFoundPage.module.scss';
 
 const NotFoundPage = () => {
   const navigate = useNavigate();
-  const backToHome = () => { navigate('/'); };
+  const backToHome = () => { navigate('/weather_cube/'); };
   return (
     <div className={styles.wrapperNotFoundPage}>
       <div className={styles.notFoundPage}>
