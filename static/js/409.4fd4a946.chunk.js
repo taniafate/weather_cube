@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[409],{409:function(e,n,a){a.r(n),a.d(n,{default:function(){return s}});var o=a(689),t="NotFoundPage_wrapperNotFoundPage__3DWM0",u="NotFoundPage_notFoundPage__SZ+WV",c="NotFoundPage_redirectButton__jomUE",r=a(184),s=function(){var e=(0,o.s0)();return(0,r.jsx)("div",{className:t,children:(0,r.jsx)("div",{className:u,children:(0,r.jsx)("button",{onClick:function(){e("/weather_cube/")},className:c,children:"Back To Home"})})})}}}]);
+//# sourceMappingURL=409.4fd4a946.chunk.js.map
