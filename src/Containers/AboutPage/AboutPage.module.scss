@@ -1,6 +1,10 @@
 .aboutPageWrapper {
   display: grid;
   justify-items: center;
+  align-items:first baseline;
+  width: 100%;
+  height: 900px;
+  box-sizing: border-box;
   
   .headerWrapper {
     display: flex;
@@ -16,9 +20,9 @@
     color: #F9C40B;
     align-items: center;
     filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
-    position: fixed;
+    position: absolute;
+    top: 100px;
     z-index: 0;
-    top: 120px;
     padding: 40px;
     display: flex;
     justify-content: center;

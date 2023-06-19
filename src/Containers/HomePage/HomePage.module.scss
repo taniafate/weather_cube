@@ -1,6 +1,10 @@
 .homePageWrapper {
   display: grid;
   justify-items: center;
+  align-items: first baseline;
+  width: 100%;
+  height: 900px;
+  box-sizing: border-box;
 
   .weatherError {
     color: #F9C40B;
@@ -72,21 +76,21 @@
     position: fixed;
     width: 306px;
     height: 232px;
-    left: 184px;
-    top: 86px;
+    left: 20px;
+    top: 100px;
     z-index: -2;
   }
   
   .picBig {
     position: fixed;
     z-index: 1;
-    left: 1570px;
-    top: 670px;
+    top: 550px;
+    right: 20px;
     transition: translate 3s ease-out;
   }
 
   .picBig:hover {
-    translate: 0 -300px;
+    translate: 0 -200px;
   }
 
   .headerWrapper {
@@ -94,14 +98,15 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    height: max-content;
   }
 
   .weatherBlock {
     filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
-    position: fixed;
+    position:absolute;
     align-items: center;
     z-index: -1;
-    top: 120px;
+    top: 100px;
 
     .forecastBox {
       display: flex;

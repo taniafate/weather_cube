@@ -1,11 +1,11 @@
 .logo {
-  width: 140px;
+  width: calc(100% - 390px);
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-right: 530px;
+  // margin-right: 530px;
 
   .logoName {
     align-items: center;

@@ -1,20 +1,22 @@
 .wrapperNotFoundPage {
-  width: 100%;
-  height: 100%;
   display: grid;
   justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
 
   .notFoundPage {
     background-image: url('../../assets/NotFound.png');
     width: 1120px;
     height: 720px;
     filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
-    position: fixed;
-    top: 120px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    box-sizing: border-box;
 
     .redirectButton {
       width: 342px;
