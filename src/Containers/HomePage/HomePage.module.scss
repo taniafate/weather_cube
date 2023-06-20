@@ -106,6 +106,7 @@
     align-items: center;
     z-index: -1;
     top: 100px;
+    box-sizing: border-box;
 
     .forecastBox {
       display: flex;

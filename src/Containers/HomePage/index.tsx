@@ -32,10 +32,12 @@ export const HomePage = () => {
 
   const clickHandler = (city: string) => {
     setSearch(city);
+    setDropdown(false);
   };
 
   const onInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setSearch(e.target.value);
+    setSearch(e.target.value.charAt(0).toUpperCase() + e.target.value.substring(1));
+    setDropdown(false);
   };
 
   const onSubmit = (cityname: string) => {
