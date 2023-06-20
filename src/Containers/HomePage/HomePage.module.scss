@@ -8,6 +8,7 @@
 
   .weatherError {
     color: #F9C40B;
+    filter: drop-shadow(4px 4px 6px rgba(165, 133, 21, 0.25));
     position: fixed;
     top: 320px;
     right: 102px;
@@ -72,25 +73,23 @@
     }
   }
 
-  .picSmall {
-    position: fixed;
-    width: 306px;
-    height: 232px;
-    left: 20px;
+  .picLeft {
+    position: absolute;
     top: 100px;
+    left: 10px;
     z-index: -2;
   }
   
-  .picBig {
-    position: fixed;
+  .picRight {
+    position: absolute;
     z-index: 1;
-    top: 550px;
-    right: 20px;
-    transition: translate 3s ease-out;
+    top: 600px;
+    right: 10px;
+    transition: translate 5s ease-out;
   }
 
-  .picBig:hover {
-    translate: 0 -200px;
+  .picRight:hover {
+    translate: 0 -100px;
   }
 
   .headerWrapper {

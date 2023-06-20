@@ -30,10 +30,11 @@ export const SearchBox = ({ search, onInputChange, onSubmit }: TSearchProps) => 
         <input
           type='text'
           className={styles.searchInput}
-          placeholder="Search for a city..."
+          placeholder='For example, Newtonhill'
           value={search}
           name='cityname'
           onChange={onInputChange}
+          pattern='[a-zA-Z]+$'
         />
         <SearchButton><SearchIcon className={styles.searchIcon} /></SearchButton>
       </form>

@@ -1,8 +1,7 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 import { ForecastItem } from '../../components/ForecastItem';
 import styles from './HomePage.module.scss';
-import { ReactComponent as PicSmall } from '../../assets/cloudSmall.svg';
-import { ReactComponent as PicBig } from '../../assets/cloudBig.svg';
+import { ReactComponent as Pic } from '../../assets/cloudBig.svg';
 import { Header } from '../../components/Commons/Header';
 import { PictureCard } from '../../components/PictureCard';
 import { SearchBox } from '../../components/Commons/SearchBox';
@@ -20,7 +19,7 @@ export const HomePage = () => {
   const undo = useDebounce(search);
 
   const { data, isError } = useGetCityQuery(undo, {
-    skip: undo.length < 3,
+    skip: undo.length < 1,
   });
 
   const [fetchWeather, { data: weather, isError: isWeatherError }] = useLazyGetCityWeatherQuery();
@@ -28,7 +27,7 @@ export const HomePage = () => {
 
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-    setDropdown(undo.length > 3 && data?.length! > 0)
+    setDropdown(undo.length > 1 && data?.length! > 0)
   }, [undo, data])
 
   const clickHandler = (city: string) => {
@@ -87,7 +86,7 @@ export const HomePage = () => {
             </div>
           </div>
         </div>
-        <PicSmall className={styles.picSmall} /><PicBig className={styles.picBig} />
+        <Pic className={styles.picLeft} /><Pic className={styles.picRight} />
       </div>
     </>
   );

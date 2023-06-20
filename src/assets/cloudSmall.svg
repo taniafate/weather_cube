@@ -1,14 +1,19 @@
-<svg width="306" height="232" viewBox="0 0 306 232" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.6">
+<svg width="85" height="65" viewBox="0 0 85 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1606_11953)">
 <g opacity="0.8">
-<ellipse cx="74.6788" cy="148.593" rx="67.5421" ry="51.7398" fill="#F9C40B"/>
-<ellipse cx="162.866" cy="184.785" rx="88.4419" ry="47.152" fill="#F9C40B"/>
-<ellipse cx="195.745" cy="123.105" rx="108.577" ry="77.2274" fill="#F9C40B"/>
+<ellipse cx="20.8583" cy="41.6431" rx="18.8651" ry="14.5" fill="#F9C40B"/>
+<ellipse cx="45.4898" cy="51.7861" rx="24.7027" ry="13.2143" fill="#F9C40B"/>
+<ellipse cx="54.6733" cy="34.5003" rx="30.3266" ry="21.6429" fill="#F9C40B"/>
 </g>
 <g opacity="0.3">
-<ellipse cx="67.5421" cy="102.715" rx="67.5421" ry="51.7398" fill="#F9C40B"/>
-<ellipse cx="155.729" cy="138.907" rx="88.4419" ry="47.152" fill="#F9C40B"/>
-<ellipse cx="188.608" cy="77.2274" rx="108.577" ry="77.2274" fill="#F9C40B"/>
+<ellipse cx="18.8651" cy="28.7856" rx="18.8651" ry="14.5" fill="#F9C40B"/>
+<ellipse cx="43.4966" cy="38.9286" rx="24.7027" ry="13.2143" fill="#F9C40B"/>
+<ellipse cx="52.6801" cy="21.6429" rx="30.3266" ry="21.6429" fill="#F9C40B"/>
 </g>
 </g>
+<defs>
+<clipPath id="clip0_1606_11953">
+<rect width="85" height="65" fill="white"/>
+</clipPath>
+</defs>
 </svg>

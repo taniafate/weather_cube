@@ -18,9 +18,9 @@ const AboutPage = () => {
         <div className={styles.aboutBlockText}>
           <p className={styles.aboutBlockParts}>The application WEATHER.CUBE was created as part of a diploma project on the course Professional Web Development (advanced level).</p>
           <p className={styles.aboutBlockParts}>The type of stack used in this application consists of frontend technology:</p>
-          <p className={styles.aboutBlockParts}>React, React Router, Redux Toolkit (RTK Query), OpenWeather API, GitHub Pages, TypeScript, SCSS.</p>
+          <p className={styles.aboutBlockParts}>React, React Router, Redux Toolkit (RTK Query), OpenWeather API, TypeScript, SCSS.</p>
           <p className={styles.aboutBlockParts}>The design of the application was also developed by the author of this project using Figma
-            (photo by Anthony DELANOIX/unsplash.com).
+            (photo by Anthony DELANOIX on Unsplash).
           </p>
           <p className={styles.aboutBlockDetails}>Weather data provided by OpenWeather/openweathermap.org</p>
         </div>
