@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { NavigateButton } from '../../components/NavigateButton';
 import styles from './NotFoundPage.module.scss';
 
 const NotFoundPage = () => {
@@ -7,7 +8,7 @@ const NotFoundPage = () => {
   return (
     <div className={styles.wrapperNotFoundPage}>
       <div className={styles.notFoundPage}>
-        <button onClick={backToHome} className={styles.redirectButton}>Back To Home</button>
+        <NavigateButton onClick={backToHome} />
       </div>
     </div>
   )

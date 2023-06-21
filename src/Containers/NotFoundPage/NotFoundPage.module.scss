@@ -17,27 +17,5 @@
     align-items: center;
     flex-direction: row;
     box-sizing: border-box;
-
-    .redirectButton {
-      width: 342px;
-      height: 72px;
-      border-radius: 0%;
-      border: 2px solid #F9C40B;
-      box-sizing: border-box;
-      text-align: center;
-      color: #F9C40B;
-      position: fixed;
-      right: 56px;
-      bottom: 56px;
-      background: #091223;
-      font-size: 20px;
-      font-weight: 400;
-      cursor: pointer;
-    }
-
-    .redirectButton:hover {
-      border-color: #7ea2ea;
-      color: #7ea2ea;
-    }
   }
 }

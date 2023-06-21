@@ -37,14 +37,12 @@ export const HomePage = () => {
 
   const onInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value.charAt(0).toUpperCase() + e.target.value.substring(1));
-    setDropdown(false);
   };
 
   const onSubmit = (cityname: string) => {
     if (!cityname) return
     void fetchWeather(cityname);
     void fetchForecast(cityname);
-    setDropdown(false);
   };
 
   return (
