@@ -1,4 +1,3 @@
-@import-normalize;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 * {
@@ -11,17 +10,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #28395b;
+  height: 100vh;
 }
 
 input {
   all: unset;
 }
 
-p {
-  padding: 0;
-  margin: 0;
+input::-webkit-input-placeholder {
+  color: #F9C40B;
+  opacity: 0.6;
 }
 
-li {
-  margin: 0;
+input::-moz-placeholder {
+  color: #F9C40B;
+}
+
+input:-ms-input-placeholder {
+  color: #F9C40B;
 }

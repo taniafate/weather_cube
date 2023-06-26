@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 import { ForecastItem } from '../../components/ForecastItem';
 import styles from './HomePage.module.scss';
-import { ReactComponent as Pic } from '../../assets/cloudBig.svg';
+import { ReactComponent as Pic } from '../../assets/Pic.svg';
 import { Header } from '../../components/Commons/Header';
 import { PictureCard } from '../../components/PictureCard';
 import { SearchBox } from '../../components/Commons/SearchBox';
@@ -20,6 +20,7 @@ export const HomePage = () => {
 
   const { data, isError } = useGetCityQuery(undo, {
     skip: undo.length < 1,
+    refetchOnFocus: true
   });
 
   const [fetchWeather, { data: weather, isError: isWeatherError }] = useLazyGetCityWeatherQuery();

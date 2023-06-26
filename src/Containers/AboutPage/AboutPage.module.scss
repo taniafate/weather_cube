@@ -16,7 +16,7 @@
   .aboutBlock {
     width: 1120px;
     height: 720px;
-    background-image: url('../../assets/AboutProject.png');
+    background: #091223;
     color: #F9C40B;
     align-items: center;
     filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
@@ -55,6 +55,18 @@
         bottom: 210px;
         right: 90px;
       }
+    }
+
+    .aboutBlockPicUp {
+      position: fixed;
+      right: 0px;
+      top: 0px;
+    }
+
+    .aboutBlockPicDown {
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
     }
   }
 }

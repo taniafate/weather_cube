@@ -23,6 +23,7 @@ FetchBaseQueryError
 export const moduleApi = createApi({
   reducerPath: 'moduleApi',
   baseQuery: refreshTokenQuery,
+  refetchOnFocus: true,
   tagTypes: [],
   endpoints: () => ({}),
 });

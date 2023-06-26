@@ -3,6 +3,8 @@ import { Logo } from '../../components/Commons/Logo';
 import { Navigation } from '../../components/Commons/Navigation';
 import { SocialMedia } from '../../components/Commons/SocialMedia';
 import styles from './AboutPage.module.scss';
+import { ReactComponent as PicUpAbout } from '../../assets/PicUpAbout.svg';
+import { ReactComponent as PicDownAbout } from '../../assets/PicDownAbout.svg';
 
 const AboutPage = () => {
   return (
@@ -24,6 +26,8 @@ const AboutPage = () => {
           </p>
           <p className={styles.aboutBlockDetails}>Weather data provided by OpenWeather/openweathermap.org</p>
         </div>
+        <PicUpAbout className={styles.aboutBlockPicUp} />
+        <PicDownAbout className={styles.aboutBlockPicDown} />
       </div>
     </div>
   )

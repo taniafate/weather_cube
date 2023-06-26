@@ -7,7 +7,7 @@
   box-sizing: border-box;
 
   .notFoundPage {
-    background-image: url('../../assets/NotFound.png');
+    background: #091223;
     width: 1120px;
     height: 720px;
     filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
@@ -15,7 +15,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     box-sizing: border-box;
+
+      .notFoundPageTitle {
+        font-size: 180px;
+        font-weight: 600;
+        position: fixed;
+        right: 56px;
+        bottom: 180px;
+      }
+      .notFoundPageSpan {
+        font-size: 30px;
+        font-weight: 400;
+        position: fixed;
+        right: 56px;
+        bottom: 166px;
+      } 
+
+      .notFoundPagePic {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+      }
   }
 }
