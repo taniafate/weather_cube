@@ -1,0 +1,27 @@
+<svg width="455" height="207" viewBox="0 0 455 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1639_11820)">
+<g opacity="0.8">
+<ellipse cx="258.144" cy="107.443" rx="91.2185" ry="66.7" transform="rotate(-180 258.144 107.443)" fill="#6395F8"/>
+<ellipse cx="139.044" cy="60.7856" rx="119.445" ry="60.7857" transform="rotate(-180 139.044 60.7856)" fill="#6395F8"/>
+<ellipse cx="94.6392" cy="140.3" rx="146.638" ry="99.5571" transform="rotate(-180 94.6392 140.3)" fill="#6395F8"/>
+</g>
+<g opacity="0.3">
+<ellipse cx="267.781" cy="166.586" rx="91.2185" ry="66.7" transform="rotate(-180 267.781 166.586)" fill="#6395F8"/>
+<ellipse cx="148.681" cy="119.929" rx="119.445" ry="60.7857" transform="rotate(-180 148.681 119.929)" fill="#6395F8"/>
+<ellipse cx="104.277" cy="199.443" rx="146.638" ry="99.5571" transform="rotate(-180 104.277 199.443)" fill="#6395F8"/>
+</g>
+</g>
+<line y1="-0.5" x2="58.3445" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 167 179.758)" stroke="#5683DA"/>
+<line y1="-0.5" x2="98.7368" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 220.3 171.543)" stroke="#5683DA"/>
+<line y1="-0.5" x2="58.3445" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 238.75 145.987)" stroke="#5683DA"/>
+<line y1="-0.5" x2="58.3445" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 320.75 182.497)" stroke="#5683DA"/>
+<line y1="-0.5" x2="98.7368" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 292.05 137.772)" stroke="#5683DA"/>
+<line y1="-0.5" x2="58.3445" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 310.5 112.215)" stroke="#5683DA"/>
+<line y1="-0.5" x2="58.3445" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 392.5 148.725)" stroke="#5683DA"/>
+<line y1="-0.5" x2="98.7368" y2="-0.5" transform="matrix(0.91354 0.406749 -0.91354 0.406749 363.8 104)" stroke="#5683DA"/>
+<defs>
+<clipPath id="clip0_1639_11820">
+<rect width="411" height="299" fill="white" transform="translate(359 299) rotate(-180)"/>
+</clipPath>
+</defs>
+</svg>

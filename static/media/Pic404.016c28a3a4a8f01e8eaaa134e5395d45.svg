@@ -1,0 +1,49 @@
+<svg width="681" height="482" viewBox="0 0 681 482" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.9" clip-path="url(#clip0_1638_11819)">
+<g opacity="0.8">
+<ellipse cx="78.3839" cy="211.593" rx="126.064" ry="92.1308" fill="#F9C40B"/>
+<ellipse cx="242.98" cy="276.039" rx="165.072" ry="83.9615" fill="#F9C40B"/>
+<ellipse cx="304.346" cy="166.208" rx="202.653" ry="137.515" fill="#F9C40B"/>
+</g>
+<g opacity="0.3">
+<ellipse cx="65.0636" cy="129.9" rx="126.064" ry="92.1308" fill="#F9C40B"/>
+<ellipse cx="229.66" cy="194.346" rx="165.072" ry="83.9615" fill="#F9C40B"/>
+<ellipse cx="291.026" cy="84.5154" rx="202.653" ry="137.515" fill="#F9C40B"/>
+</g>
+</g>
+<g opacity="0.9" clip-path="url(#clip1_1638_11819)">
+<g opacity="0.8">
+<ellipse cx="616.858" cy="79.6431" rx="18.8651" ry="14.5" fill="#F9C40B"/>
+<ellipse cx="641.49" cy="89.7861" rx="24.7027" ry="13.2143" fill="#F9C40B"/>
+<ellipse cx="650.673" cy="72.5003" rx="30.3266" ry="21.6429" fill="#F9C40B"/>
+</g>
+<g opacity="0.3">
+<ellipse cx="614.865" cy="66.7856" rx="18.8651" ry="14.5" fill="#F9C40B"/>
+<ellipse cx="639.497" cy="76.9286" rx="24.7027" ry="13.2143" fill="#F9C40B"/>
+<ellipse cx="648.68" cy="59.6429" rx="30.3266" ry="21.6429" fill="#F9C40B"/>
+</g>
+</g>
+<g opacity="0.9" clip-path="url(#clip2_1638_11819)">
+<g opacity="0.8">
+<ellipse cx="65.8583" cy="458.643" rx="18.8651" ry="14.5" fill="#F9C40B"/>
+<ellipse cx="90.4898" cy="468.786" rx="24.7027" ry="13.2143" fill="#F9C40B"/>
+<ellipse cx="99.6733" cy="451.5" rx="30.3266" ry="21.6429" fill="#F9C40B"/>
+</g>
+<g opacity="0.3">
+<ellipse cx="63.8651" cy="445.786" rx="18.8651" ry="14.5" fill="#F9C40B"/>
+<ellipse cx="88.4966" cy="455.929" rx="24.7027" ry="13.2143" fill="#F9C40B"/>
+<ellipse cx="97.6801" cy="438.643" rx="30.3266" ry="21.6429" fill="#F9C40B"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1638_11819">
+<rect width="568" height="413" fill="white" transform="translate(-61 -53)"/>
+</clipPath>
+<clipPath id="clip1_1638_11819">
+<rect width="85" height="65" fill="white" transform="translate(596 38)"/>
+</clipPath>
+<clipPath id="clip2_1638_11819">
+<rect width="85" height="65" fill="white" transform="translate(45 417)"/>
+</clipPath>
+</defs>
+</svg>
