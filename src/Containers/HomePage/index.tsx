@@ -1,25 +1,25 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 import { ForecastItem } from '../../components/ForecastItem';
 import styles from './HomePage.module.scss';
-import { ReactComponent as Pic } from '../../assets/Pic.svg';
+import { ReactComponent as Pic } from '../../assets/img/Pic.svg';
 import { Header } from '../../components/Commons/Header';
 import { PictureCard } from '../../components/PictureCard';
 import { SearchBox } from '../../components/Commons/SearchBox';
 import { useGetCityQuery, useLazyGetCityWeatherQuery, useLazyGetForecastQuery } from '../../store/query/weatherApi';
 import { CityCard } from '../../components/CityCard';
-import { useDebounce } from '../../hooks/useDebounce';
+import { useDebounce } from '../../utils/hooks/useDebounce';
 import { Dropdown } from '../../components/Commons/Dropdown';
-import { defaultCard } from '../../mock';
+import { defaultCard } from '../../utils/mock';
 import { Navigation } from '../../components/Commons/Navigation';
 import { Logo } from '../../components/Commons/Logo';
 
-export const HomePage = () => {
+const HomePage = () => {
   const [search, setSearch] = useState<string>('');
   const [dropdown, setDropdown] = useState(false);
-  const undo = useDebounce(search);
+  const debounced = useDebounce(search);
 
-  const { data, isError } = useGetCityQuery(undo, {
-    skip: undo.length < 1,
+  const { data, isError } = useGetCityQuery(debounced, {
+    skip: debounced.length < 1,
     refetchOnFocus: true
   });
 
@@ -28,8 +28,8 @@ export const HomePage = () => {
 
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-    setDropdown(undo.length > 1 && data?.length! > 0)
-  }, [undo, data])
+    setDropdown(debounced.length > 1 && data?.length! > 0)
+  }, [debounced, data])
 
   const clickHandler = (city: string) => {
     setSearch(city);
@@ -92,3 +92,5 @@ export const HomePage = () => {
     </>
   );
 };
+
+export default HomePage;

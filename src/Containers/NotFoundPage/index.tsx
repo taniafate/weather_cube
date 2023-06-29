@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { NavigateButton } from '../../components/Commons/NavigateButton';
 import styles from './NotFoundPage.module.scss';
-import { ReactComponent as Pic404 } from '../../assets/Pic404.svg';
+import { ReactComponent as Pic404 } from '../../assets/img/Pic404.svg';
 
 const NotFoundPage = () => {
   const navigate = useNavigate();

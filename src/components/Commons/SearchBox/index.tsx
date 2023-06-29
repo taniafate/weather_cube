@@ -1,6 +1,6 @@
 import { ChangeEvent } from 'react';
 import { SearchButton } from '../SearchButton';
-import { ReactComponent as SearchIcon } from '../../../assets/SearchIcon.svg';
+import { ReactComponent as SearchIcon } from '../../../assets/icons/SearchIcon.svg';
 import styles from './SearchBox.module.scss';
 
 export type TSearchProps = {

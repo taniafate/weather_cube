@@ -1,5 +1,5 @@
 import { moduleApi } from '.';
-import { TCityCardType, TCityType, TForecastType } from '../../types';
+import { TCityCardType, TCityType, TForecastType } from '../../utils/types';
 
 export const weatherApi = moduleApi.injectEndpoints({
   endpoints: (build) => ({

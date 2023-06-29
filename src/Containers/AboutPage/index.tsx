@@ -3,8 +3,8 @@ import { Logo } from '../../components/Commons/Logo';
 import { Navigation } from '../../components/Commons/Navigation';
 import { SocialMedia } from '../../components/Commons/SocialMedia';
 import styles from './AboutPage.module.scss';
-import { ReactComponent as PicUpAbout } from '../../assets/PicUpAbout.svg';
-import { ReactComponent as PicDownAbout } from '../../assets/PicDownAbout.svg';
+import { ReactComponent as PicUpAbout } from '../../assets/img/PicUpAbout.svg';
+import { ReactComponent as PicDownAbout } from '../../assets/img/PicDownAbout.svg';
 
 const AboutPage = () => {
   return (

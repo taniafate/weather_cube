@@ -1,5 +1,5 @@
-import { getHourNumber, getMonthName, getWeeklyDay } from '../../helpers';
-import { TForecastType, TForecastItemType } from '../../types';
+import { getHourNumber, getMonthName, getWeeklyDay } from '../../utils/helpers';
+import { TForecastType, TForecastItemType } from '../../utils/types';
 import styles from './ForecastItem.module.scss';
 
 export const ForecastItem = ({ forecast }: { forecast: TForecastType }) => {

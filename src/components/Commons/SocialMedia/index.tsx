@@ -1,5 +1,5 @@
 import styles from './SocialMedia.module.scss';
-import { ReactComponent as SocialMediaIcon } from '../../../assets/Open.svg';
+import { ReactComponent as SocialMediaIcon } from '../../../assets/icons/Open.svg';
 import { SocialMediaButton } from '../SocialMediaButton';
 
 export const SocialMedia = () => {

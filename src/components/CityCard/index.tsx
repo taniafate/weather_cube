@@ -1,5 +1,5 @@
-import { getHourNumber, getWindDirection } from '../../helpers';
-import { TCityCardType } from '../../types';
+import { getHourNumber, getWindDirection } from '../../utils/helpers';
+import { TCityCardType } from '../../utils/types';
 import { CityCardSkeletonDetails } from '../CityCardSkeletonDetails';
 import styles from './CityCard.module.scss';
 

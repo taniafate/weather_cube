@@ -1,9 +1,9 @@
 import styles from './App.module.scss';
 import { Routes, Route } from 'react-router-dom';
 import { routes } from './utils/constants/routes';
-import { HomePage } from './Containers/HomePage';
 import { lazy, Suspense } from 'react';
 
+const HomePage = lazy(() => import('./Containers/HomePage'));
 const AboutPage = lazy(() => import('./Containers/AboutPage'));
 const NotFoundPage = lazy(() => import('./Containers/NotFoundPage'));
 
@@ -13,7 +13,9 @@ function App() {
         <Routes>
           <Route
             path={routes.HOME}
-            element={<HomePage />}
+            element={<Suspense fallback={<p className={styles.lazyLoading}>Loading...</p>}>
+              <HomePage />
+            </Suspense>}
           />
           <Route
             path={routes.ABOUT}

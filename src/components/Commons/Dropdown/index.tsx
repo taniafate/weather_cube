@@ -1,4 +1,4 @@
-import { TCityType } from '../../../types';
+import { TCityType } from '../../../utils/types';
 import styles from './Dropdown.module.scss';
 
 type TDropdownProps = {

@@ -1,7 +1,7 @@
-import styles from './SkeletonDetails.module.scss';
-import { ReactComponent as Humidity } from '../../assets/Humidity.svg';
-import { ReactComponent as Pressure } from '../../assets/Pressure.svg';
-import { ReactComponent as Wind } from '../../assets/Wind.svg';
+import styles from './CityCardSkeletonDetails.module.scss';
+import { ReactComponent as Humidity } from '../../assets/icons/Humidity.svg';
+import { ReactComponent as Pressure } from '../../assets/icons/Pressure.svg';
+import { ReactComponent as Wind } from '../../assets/icons/Wind.svg';
 
 type TSkeletonProps = {
   icon: 'wind' | 'humidity' | 'pressure'
