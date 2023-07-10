@@ -155,12 +155,17 @@
     padding: 14px 10px 14px 10px;
 
     .cityCardHead {
+
+      .cityCardTime {
+        font-size: 16px;
+      }
+
       .cityCardTitle {
     
         .cityCardTitleName {
           left: 24px;
           top: 24px;
-          font-size: 22px;
+          font-size: 20px;
           font-weight: 500;
         }
     
@@ -182,6 +187,62 @@
   
       .cityCardTempSec {
         font-size: 16px;
+        font-weight: 400;
+      }
+    }
+
+    .cityCardDetails {
+      align-items: center;
+      width: 100%;
+      background: #F9C40B;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 38px;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .cityCard {
+    width: 280px;
+    height: 200px;
+    padding: 8px 6px 8px 6px;
+
+    .cityCardHead {
+
+      .cityCardTime {
+        font-size: 14px;
+      }
+
+      .cityCardTitle {
+    
+        .cityCardTitleName {
+          left: 24px;
+          top: 24px;
+          font-size: 16px;
+          font-weight: 500;
+        }
+    
+        .cityCardTitleCountry {
+          left: 24px;
+          top: 54px;
+          color: #041430;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .cityCardTemp {
+  
+      .cityCardTempMain {
+        font-size: 32px;
+        font-weight: 400;
+      }
+  
+      .cityCardTempSec {
+        font-size: 14px;
         font-weight: 400;
       }
     }

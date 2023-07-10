@@ -150,3 +150,25 @@
     }
   }
 }
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .wrapperNotFoundPage {
+
+    .notFoundPageHeader {
+      padding: 10px;
+
+      .notFoundPageHeaderText {
+        font-size: 11px;
+      }
+    }
+
+    .notFoundPage {
+      width: 280px;
+      height: 700px;
+
+      .notFoundPagePic {
+        width: 200px;
+      }
+    }
+  }
+}

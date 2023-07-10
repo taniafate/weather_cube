@@ -1,14 +1,14 @@
 import styles from './SearchButton.module.scss';
+import { ReactComponent as SearchIcon } from '../../../assets/icons/SearchIcon.svg';
 
 type TSearchButtonProps = {
-  children: JSX.Element;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-export const SearchButton = ({ children, onClick }: TSearchButtonProps) => {
+export const SearchButton = ({ onClick }: TSearchButtonProps) => {
   return (
   <button className = {styles.button} onClick={onClick}>
-    {children}
+    <SearchIcon className={styles.searchIcon} />
   </button>
   )
 };

@@ -1,6 +1,5 @@
 import { ChangeEvent } from 'react';
 import { SearchButton } from '../SearchButton';
-import { ReactComponent as SearchIcon } from '../../../assets/icons/SearchIcon.svg';
 import styles from './SearchBox.module.scss';
 
 export type TSearchProps = {
@@ -36,7 +35,7 @@ export const SearchBox = ({ search, onInputChange, onSubmit }: TSearchProps) => 
           onChange={onInputChange}
           pattern='[a-zA-Z]+$'
         />
-        <SearchButton><SearchIcon className={styles.searchIcon} /></SearchButton>
+        <SearchButton />
       </form>
     </div>
   )

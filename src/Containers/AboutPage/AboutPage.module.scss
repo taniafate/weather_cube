@@ -170,6 +170,8 @@
 @media only screen and (max-width: 450px) {
   .aboutPageWrapper {
     .aboutBlock {
+      align-items: flex-start;
+      height: fit-content;
       width: 320px;
       margin-top: 20px;
       margin-bottom: 20px;
@@ -179,16 +181,16 @@
         margin: 30px;
 
         .aboutBlockParts {
-          font-size: 14px;
+          font-size: 13px;
         }
 
         .aboutBlockDetails {
-          font-size: 12px;
+          font-size: 11px;
         }
       }
 
       .aboutBlockPicUp {
-        width: 318px;
+        width: 290px;
         position:absolute;
         right: 0px; 
         top: -28px;
@@ -196,10 +198,49 @@
       }
   
       .aboutBlockPicDown {
-        width: 260px;
+        width: 200px;
         position: absolute;
         left: 0px;
-        bottom: 0px;
+        bottom: -12px;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .aboutPageWrapper {
+    .aboutBlock {
+      width: 280px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      .aboutBlockText {
+        width: 100%;
+        margin: 30px;
+
+        .aboutBlockParts {
+          font-size: 12px;
+        }
+
+        .aboutBlockDetails {
+          font-size: 10px;
+        }
+      }
+
+      .aboutBlockPicUp {
+        width: 220px;
+        position:absolute;
+        right: 0px; 
+        top: -40px;
+        z-index: -1;
+      }
+  
+      .aboutBlockPicDown {
+        width: 180px;
+        position: absolute;
+        left: 0px;
+        bottom: -16px;
         z-index: -1;
       }
     }

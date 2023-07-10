@@ -40,12 +40,23 @@
   }
 }
 
-@media only screen and (min-width: 340px) and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   .logo {
-    width: calc(100% - 200px);
+    width: calc(100% - 160px);
   
     .logoName {
       font-size: 14px;
+      margin-right: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .logo {
+    width: calc(100% - 140px);
+  
+    .logoName {
+      font-size: 12px;
       margin-right: 10px;
     }
   }

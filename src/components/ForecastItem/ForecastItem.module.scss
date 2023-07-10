@@ -16,7 +16,7 @@
       color: #F9C40B; 
       margin-bottom: 12px;
       margin-top: 18px;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 500;
       opacity: 90%;
   }
@@ -34,7 +34,7 @@
       box-sizing: border-box; 
       color: #F9C40B;
       margin-top: 32px;
-      font-size: 32px;
+      font-size: 28px;
       font-weight: 400;
   }
 
@@ -60,7 +60,7 @@
     align-content: center;
 
     .forecastItemDay {
-        font-size: 19px;
+        font-size: 22px;
         font-weight: 500;
         padding: 0px;
         margin: 0px;
@@ -74,7 +74,7 @@
     }
   
     .forecastItemTemp {
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 500;
         padding: 0px;
         margin: 0px;
@@ -99,7 +99,7 @@
     align-content: center;
     
     .forecastItemDay {
-      font-size: 17px;
+      font-size: 18px;
       font-weight: 400;
       padding: 0px;
       margin: 0px;
@@ -113,7 +113,7 @@
     }
       
     .forecastItemTemp {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 400;
       padding: 0px;
       margin: 0px;
@@ -121,6 +121,45 @@
       
     .forecastItemTime {
       font-size: 15px;
+      font-weight: 300;
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .forecastItem {
+    width: 260px;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    
+    .forecastItemDay {
+      font-size: 15px;
+      font-weight: 400;
+      padding: 0px;
+      margin: 0px;
+    }
+      
+    .forecastItemDate {
+      font-size: 13px;
+      font-weight: 300;
+      padding: 0px;
+      margin: 0px;
+    }
+      
+    .forecastItemTemp {
+      font-size: 15px;
+      font-weight: 400;
+      padding: 0px;
+      margin: 0px;
+    }
+      
+    .forecastItemTime {
+      font-size: 13px;
       font-weight: 300;
       padding: 0px;
       margin: 0px;

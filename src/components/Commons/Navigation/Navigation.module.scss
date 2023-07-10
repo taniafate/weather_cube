@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 767px)  {
   .navigationBlock {
-  width: 200px;
+    width: 200px;
 
     .navigation {
       width: 100px;
@@ -74,6 +74,36 @@
     .navigationActive {
       width: 100px;
       font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px)  {
+  .navigationBlock {
+    width: 160px;
+
+    .navigation {
+      width: 80px;
+      font-size: 14px;
+    }
+    .navigationActive {
+      width: 80px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .navigationBlock {
+    width: 140px;
+
+    .navigation {
+      width: 70px;
+      font-size: 12px;
+    }
+    .navigationActive {
+      width: 70px;
+      font-size: 12px;
     }
   }
 }
