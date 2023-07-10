@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 
   &:hover {
     background: #FECA13;
@@ -37,5 +40,26 @@
     margin-left: 4px;
     margin-bottom: 2px;
     opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 1200px)  {
+  .mediaButton {
+    width: 620px;
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  .mediaButton {
+    width: 400px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mediaButton {
+    width: 320px;
+    height: 58px;
   }
 }

@@ -1,5 +1,5 @@
 .navigationBlock {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
   box-sizing: border-box;
@@ -19,6 +19,9 @@
     text-decoration: none;
     font-size: 20px;
     box-sizing: border-box;
+    @media only screen and (min-width: 200px) and (max-width: 767px)  {
+      width: 85px;
+    }
 }
 
 .navigationActive {
@@ -42,5 +45,35 @@
   }
   .navigation:hover {
     background: #162032;
+  }
+}
+
+@media only screen and (max-width: 1200px)  {
+  .navigationBlock {
+  width: 280px;
+  
+    .navigation {
+      width: 140px;
+      font-size: 18px;
+    }
+    .navigationActive {
+      width: 140px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  .navigationBlock {
+  width: 200px;
+
+    .navigation {
+      width: 100px;
+      font-size: 16px;
+    }
+    .navigationActive {
+      width: 100px;
+      font-size: 16px;
+    }
   }
 }

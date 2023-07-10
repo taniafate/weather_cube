@@ -8,6 +8,9 @@ const NotFoundPage = () => {
   const backToHome = () => { navigate('/'); };
   return (
     <div className={styles.wrapperNotFoundPage}>
+      <header className={styles.notFoundPageHeader}>
+        <p className={styles.notFoundPageHeaderText}>Sorry, the page you were looking for doesn’t exist..</p>
+        </header>
       <div className={styles.notFoundPage}>
         <h1 className={styles.notFoundPageTitle}>404</h1>
         <p className={styles.notFoundPageSpan}>Oops.. Page Not Found</p>

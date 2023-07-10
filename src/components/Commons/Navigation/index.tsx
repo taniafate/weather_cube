@@ -10,7 +10,7 @@ export const Navigation = () => {
       <nav className={styles.navigationBlock}>
         <ul>
           <NavLink to={routes.HOME} className={setActive}>Home</NavLink>
-          <NavLink to={routes.ABOUT} className={setActive}>About App</NavLink>
+          <NavLink to={routes.ABOUT} className={setActive}>About</NavLink>
         </ul>
       </nav>
     </>

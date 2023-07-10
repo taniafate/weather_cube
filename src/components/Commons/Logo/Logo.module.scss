@@ -16,3 +16,37 @@
     line-height: 39px;
   }
 }
+
+@media only screen and (max-width: 1200px)  {
+  .logo {
+    width: calc(100% - 280px);
+    justify-content: end;
+  
+    .logoName {
+      font-size: 24px;
+      margin-right: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  .logo {
+    width: calc(100% - 200px);
+  
+    .logoName {
+      font-size: 18px;
+      margin-right: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 450px) {
+  .logo {
+    width: calc(100% - 200px);
+  
+    .logoName {
+      font-size: 14px;
+      margin-right: 10px;
+    }
+  }
+}

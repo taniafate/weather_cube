@@ -21,7 +21,7 @@
     width: 100%;
 
     .cityCardTime {
-      position: fixed;
+      position: static;
       top: 24px;
       left: 490px;
       color: #041430;
@@ -40,7 +40,7 @@
       color: #041430;
   
       .cityCardTitleName {
-        position: fixed;
+        position: static;
         left: 24px;
         top: 24px;
         display: inline-block;
@@ -52,7 +52,7 @@
   
       .cityCardTitleCountry {
         display: inline-block;
-        position: fixed;
+        position: static;
         align-self: flex-start;
         left: 24px;
         top: 54px;
@@ -98,4 +98,103 @@
 
 .cityCard:hover {
   transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 1200px) {
+  .cityCard {
+    width: 620px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cityCard {
+    width: 400px;
+    height: 280px;
+
+    .cityCardHead {
+
+      .cityCardTime {
+        font-size: 18px;
+      }
+
+      .cityCardTitle {
+    
+        .cityCardTitleName {
+          left: 24px;
+          top: 24px;
+          font-size: 22px;
+          font-weight: 600;
+        }
+    
+        .cityCardTitleCountry {
+          left: 24px;
+          top: 54px;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .cityCardTemp {
+  
+      .cityCardTempMain {
+        font-size: 50px;
+        font-weight: 400;
+      }
+  
+      .cityCardTempSec {
+        font-size: 17px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .cityCard {
+    width: 320px;
+    height: 240px;
+    padding: 14px 10px 14px 10px;
+
+    .cityCardHead {
+      .cityCardTitle {
+    
+        .cityCardTitleName {
+          left: 24px;
+          top: 24px;
+          font-size: 22px;
+          font-weight: 500;
+        }
+    
+        .cityCardTitleCountry {
+          left: 24px;
+          top: 54px;
+          color: #041430;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .cityCardTemp {
+  
+      .cityCardTempMain {
+        font-size: 38px;
+        font-weight: 400;
+      }
+  
+      .cityCardTempSec {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+
+    .cityCardDetails {
+      align-items: center;
+      width: 100%;
+      background: #F9C40B;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 38px;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+  }
 }

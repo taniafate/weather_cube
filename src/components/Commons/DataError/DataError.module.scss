@@ -1,0 +1,20 @@
+.dataError {
+  color: #F9C40B;
+  position: absolute;
+  top: 52px;
+  //border: 2px solid #F9C40B;
+  box-sizing: border-box;
+  height: 70px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .dataErrorText {
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+  }
+}

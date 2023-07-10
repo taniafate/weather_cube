@@ -1,13 +1,33 @@
 .wrapperNotFoundPage {
   display: grid;
   justify-items: center;
-  align-items: center;
+  align-items:safe;
   width: 100%;
   height: 800px;
   box-sizing: border-box;
 
+  .notFoundPageHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background: #091223;
+    opacity: 0.7;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 8px rgba(9, 18, 35, 0.15);
+
+    .notFoundPageHeaderText {
+      font-size: 18px;
+      font-weight: 400;
+      display: block;
+    }
+  }
+
   .notFoundPage {
     background: #091223;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 1120px;
     height: 720px;
     filter: drop-shadow(7px 7px 12px rgba(7, 16, 32, 0.25));
@@ -18,25 +38,115 @@
     flex-direction: column;
     box-sizing: border-box;
 
+    .notFoundPageTitle {
+      font-size: 180px;
+      font-weight: 600;
+      position: fixed;
+      right: 56px;
+      bottom: 180px;
+    }
+    .notFoundPageSpan {
+      font-size: 30px;
+      font-weight: 400;
+      position: fixed;
+      right: 56px;
+      bottom: 166px;
+    } 
+
+    .notFoundPagePic {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapperNotFoundPage {
+
+    .notFoundPage {
+      width: 620px;
+
       .notFoundPageTitle {
-        font-size: 180px;
+        font-size: 140px;
         font-weight: 600;
         position: fixed;
-        right: 56px;
-        bottom: 180px;
+        right: 38px;
+        bottom: 160px;
       }
       .notFoundPageSpan {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 400;
         position: fixed;
-        right: 56px;
-        bottom: 166px;
+        right: 40px;
+        bottom: 146px;
       } 
-
+  
       .notFoundPagePic {
-        position: fixed;
+        position: relative;
+        left: -110px;
+        top: -180px;
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapperNotFoundPage {
+
+    .notFoundPageHeader {
+      .notFoundPageHeaderText {
+        font-size: 14px;
+      }
+    }
+
+    .notFoundPage {
+      width: 400px;
+
+      .notFoundPageTitle {
+        position: absolute;
+        font-size: 120px;
+        right: inherit;
+        bottom: inherit;
+      }
+      .notFoundPageSpan {
+        position: absolute;
+        font-size: 20px;
+        right: inherit;
+        bottom: inherit;
+        margin-top: 140px;
+        
+      }
+      .notFoundPagePic {
+        width: 300px;
+        height: max-content;
+        position: absolute;
         left: 0px;
         top: 0px;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .wrapperNotFoundPage {
+
+    .notFoundPageHeader {
+      padding: 20px;
+
+      .notFoundPageHeaderText {
+        font-size: 12px;
+      }
+    }
+
+    .notFoundPage {
+      width: 320px;
+      height: 700px;
+
+      .notFoundPagePic {
+        width: 260px;
+      }
+    }
   }
 }

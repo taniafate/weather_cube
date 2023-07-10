@@ -12,6 +12,7 @@ import { Dropdown } from '../../components/Commons/Dropdown';
 import { defaultCard } from '../../utils/mock';
 import { Navigation } from '../../components/Commons/Navigation';
 import { Logo } from '../../components/Commons/Logo';
+import { DataError } from '../../components/Commons/DataError';
 
 const HomePage = () => {
   const [search, setSearch] = useState<string>('');
@@ -23,8 +24,8 @@ const HomePage = () => {
     refetchOnFocus: true
   });
 
-  const [fetchWeather, { data: weather, isError: isWeatherError }] = useLazyGetCityWeatherQuery();
-  const [fetchForecast, { data: forecast, isError: isForecastError }] = useLazyGetForecastQuery();
+  const [fetchWeather, { data: weather }] = useLazyGetCityWeatherQuery();
+  const [fetchForecast, { data: forecast }] = useLazyGetForecastQuery();
 
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
@@ -54,7 +55,7 @@ const HomePage = () => {
             <Navigation />
             <Logo />
           </Header>
-          <div className={styles.searchBox}>
+          <div className={styles.searchBlock}>
             <SearchBox
               search={search}
               onInputChange={onInputChange}
@@ -63,18 +64,7 @@ const HomePage = () => {
             {dropdown && data?.map(item => <Dropdown city={item} onClick={clickHandler} key={item.id}/>)}
           </div>
         </div>
-        { isError && <div className={styles.dataError}>
-            <p className={styles.dataErrorText}>Something went wrong...</p>
-          </div>
-        }
-        { isWeatherError && <div className={styles.weatherError}>
-            <p className={styles.weatherErrorText}>Something went wrong with weather...</p>
-          </div>
-        }
-        { isForecastError && <div className={styles.forecastError}>
-            <p className={styles.forecastErrorText}>Something went wrong with forecast...</p>
-          </div>
-        }
+        { isError && <DataError /> }
         <div className={styles.weatherBlock}>
           <div className={styles.WrapperCards}>
             { weather ? <CityCard city={weather} key={weather.id}/> : <CityCard city={defaultCard} key={defaultCard.id}/>}
@@ -82,9 +72,9 @@ const HomePage = () => {
           </div>
           <div className={styles.forecastBox}>
             <div className={styles.forecastTitle}>Forecast</div>
-            <div className={styles.forecastList}>
+            <ul className={styles.forecastList}>
               { forecast ? <ForecastItem forecast={forecast} key={forecast.city.id}/> : <div className={styles.defaultForecast}/>}
-            </div>
+            </ul>
           </div>
         </div>
         <Pic className={styles.picLeft} /><Pic className={styles.picRight} />
