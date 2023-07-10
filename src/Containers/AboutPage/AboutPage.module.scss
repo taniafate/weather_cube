@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    //position: inherit;
+    position: relative;
 
     .aboutBlockText {
       text-align: center;
@@ -60,13 +60,13 @@
     }
 
     .aboutBlockPicUp {
-      position: fixed;
+      position: absolute;
       right: 0px;
       top: 0px;
     }
 
     .aboutBlockPicDown {
-      position: fixed;
+      position: absolute;
       left: 0px;
       bottom: 0px;
     }
@@ -80,6 +80,7 @@
       margin-bottom: 20px;
       width: 620px;
       padding: 20px;
+      position: relative;
 
       .aboutBlockText {
         width: 100%;
@@ -122,6 +123,7 @@
   .aboutPageWrapper {
     min-width: 100%;
     .aboutBlock {
+      position: relative;
       align-items: flex-start;
       margin-top: 20px;
       margin-bottom: 20px;
@@ -170,6 +172,7 @@
 @media only screen and (max-width: 450px) {
   .aboutPageWrapper {
     .aboutBlock {
+      position: relative;
       align-items: flex-start;
       height: fit-content;
       width: 320px;
@@ -193,7 +196,7 @@
         width: 290px;
         position:absolute;
         right: 0px; 
-        top: -28px;
+        top: 0px;
         z-index: -1;
       }
   
@@ -201,7 +204,7 @@
         width: 200px;
         position: absolute;
         left: 0px;
-        bottom: -12px;
+        bottom: 0px;
         z-index: -1;
       }
     }
@@ -211,6 +214,7 @@
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .aboutPageWrapper {
     .aboutBlock {
+      position: relative;
       width: 280px;
       margin-top: 20px;
       margin-bottom: 20px;
