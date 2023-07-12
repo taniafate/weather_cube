@@ -19,38 +19,36 @@
     text-decoration: none;
     font-size: 20px;
     box-sizing: border-box;
-    @media only screen and (min-width: 200px) and (max-width: 767px)  {
-      width: 85px;
-    }
-}
+  }
 
-.navigationActive {
-  background:  #0b214a;
-  border-bottom: 2px solid #F9C40B;
-  color: #F9C40B;
-  width: 190px;
-  height: 70px;
-  margin-bottom: 0px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: nowrap;
-  text-decoration: none;
-  font-size: 20px;
-  box-sizing: border-box;
-}
   .navigation:link {
     color: #F9C40B;
   }
   .navigation:hover {
     background: #162032;
   }
+
+  .navigationActive {
+    background:  #0b214a;
+    border-bottom: 2px solid #F9C40B;
+    color: #F9C40B;
+    width: 190px;
+    height: 70px;
+    margin-bottom: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
 }
 
 @media only screen and (max-width: 1200px)  {
   .navigationBlock {
-  width: 280px;
+    width: 280px;
   
     .navigation {
       width: 140px;
