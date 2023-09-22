@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/weather_cube/static/css/main.877dc564.css",
-    "main.js": "/weather_cube/static/js/main.c7fb2826.js",
-    "static/css/783.6ebb6548.chunk.css": "/weather_cube/static/css/783.6ebb6548.chunk.css",
-    "static/js/783.4115e2dd.chunk.js": "/weather_cube/static/js/783.4115e2dd.chunk.js",
+    "main.js": "/weather_cube/static/js/main.22159cbc.js",
+    "static/css/783.ae15fef7.chunk.css": "/weather_cube/static/css/783.ae15fef7.chunk.css",
+    "static/js/783.b8836663.chunk.js": "/weather_cube/static/js/783.b8836663.chunk.js",
     "static/css/346.6e39d51a.chunk.css": "/weather_cube/static/css/346.6e39d51a.chunk.css",
-    "static/js/346.d975fe12.chunk.js": "/weather_cube/static/js/346.d975fe12.chunk.js",
+    "static/js/346.2ac9da52.chunk.js": "/weather_cube/static/js/346.2ac9da52.chunk.js",
     "static/css/385.53f7f620.chunk.css": "/weather_cube/static/css/385.53f7f620.chunk.css",
     "static/js/385.a96240d0.chunk.js": "/weather_cube/static/js/385.a96240d0.chunk.js",
+    "static/js/771.5b23d575.chunk.js": "/weather_cube/static/js/771.5b23d575.chunk.js",
     "static/media/slider.png": "/weather_cube/static/media/slider.bfd4add0eda561e4aae7.png",
     "static/media/ForecastPic.svg": "/weather_cube/static/media/ForecastPic.84eee60973349c0c434d.svg",
     "static/media/PicUpAbout.svg": "/weather_cube/static/media/PicUpAbout.fc7132b645887e64322e4c1d11a42432.svg",
@@ -21,16 +22,17 @@
     "static/media/Pressure.svg": "/weather_cube/static/media/Pressure.b198f8a3091c18c3c38a0f21fef7d3dd.svg",
     "static/media/Humidity.svg": "/weather_cube/static/media/Humidity.0b44006bf9f24d234a71c65130bdeec2.svg",
     "main.877dc564.css.map": "/weather_cube/static/css/main.877dc564.css.map",
-    "main.c7fb2826.js.map": "/weather_cube/static/js/main.c7fb2826.js.map",
-    "783.6ebb6548.chunk.css.map": "/weather_cube/static/css/783.6ebb6548.chunk.css.map",
-    "783.4115e2dd.chunk.js.map": "/weather_cube/static/js/783.4115e2dd.chunk.js.map",
+    "main.22159cbc.js.map": "/weather_cube/static/js/main.22159cbc.js.map",
+    "783.ae15fef7.chunk.css.map": "/weather_cube/static/css/783.ae15fef7.chunk.css.map",
+    "783.b8836663.chunk.js.map": "/weather_cube/static/js/783.b8836663.chunk.js.map",
     "346.6e39d51a.chunk.css.map": "/weather_cube/static/css/346.6e39d51a.chunk.css.map",
-    "346.d975fe12.chunk.js.map": "/weather_cube/static/js/346.d975fe12.chunk.js.map",
+    "346.2ac9da52.chunk.js.map": "/weather_cube/static/js/346.2ac9da52.chunk.js.map",
     "385.53f7f620.chunk.css.map": "/weather_cube/static/css/385.53f7f620.chunk.css.map",
-    "385.a96240d0.chunk.js.map": "/weather_cube/static/js/385.a96240d0.chunk.js.map"
+    "385.a96240d0.chunk.js.map": "/weather_cube/static/js/385.a96240d0.chunk.js.map",
+    "771.5b23d575.chunk.js.map": "/weather_cube/static/js/771.5b23d575.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.877dc564.css",
-    "static/js/main.c7fb2826.js"
+    "static/js/main.22159cbc.js"
   ]
 }
