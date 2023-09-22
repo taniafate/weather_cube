@@ -1,4 +1,4 @@
-## The application WEATHER.CUBE was created as part of a diploma project on the Professional Web Development course (advanced level).
+## The application WEATHER.CUBE was created as part of a diploma project on the Professional Web Development course (advanced level) 2023.
 
 
 ### The type of stack used in this application consists of frontend technology:
