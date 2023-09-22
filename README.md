@@ -6,9 +6,9 @@
 | Number |                  Technology                   |
 |-------:|-----------------------------------------------|
 |       1| React (React Function Components, React Hooks)|
-|       2| React Router                                  |
+|       2| React Router DOM                              |
 |       3| Redux Toolkit (RTK Query)                     |
-|       4| OpenWeather API                               |
+|       4| OpenWeatherMap API                            |
 |       5| TypeScript                                    |
 |       6| SCSS modules                                  |
 |       7| Building an Adaptive Application              |
