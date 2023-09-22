@@ -10,6 +10,10 @@
     margin: 8px  8px 8px 8px;
     justify-content: baseline;
 
+    &:hover {
+      background: #0b214a;
+    }
+
   .forecastItemDay {
       display: block;
       box-sizing: border-box; 
@@ -49,13 +53,29 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .forecastItem {
+    .forecastItemDay {
+      font-size: 14px;
+      margin-top: 32px;
+    }
+
+    .forecastItemDate {
+      font-size: 16px;
+    }
+
+    .forecastItemTemp {
+      font-size: 24px;
+    }
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .forecastItem {
     width: 360px;
     height: 100px;
     flex-direction: row;
     align-items: center;
-    //margin: 8px  8px 8px 8px;
     justify-content: space-around;
     align-content: center;
 

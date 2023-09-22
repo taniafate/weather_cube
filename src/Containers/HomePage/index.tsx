@@ -13,6 +13,7 @@ import { defaultCard } from '../../utils/mock';
 import { Navigation } from '../../components/Commons/Navigation';
 import { Logo } from '../../components/Commons/Logo';
 import { DataError } from '../../components/Commons/DataError';
+import { motion } from "framer-motion";
 
 const HomePage = () => {
   const [search, setSearch] = useState<string>('');
@@ -73,7 +74,17 @@ const HomePage = () => {
           <div className={styles.forecastBox}>
             <div className={styles.forecastTitle}>Forecast</div>
             <ul className={styles.forecastList}>
-              { forecast ? <ForecastItem forecast={forecast} key={forecast.city.id}/> : <div className={styles.defaultForecast}/>}
+              { forecast
+                ? <ForecastItem forecast={forecast} key={forecast.city.id}/>
+                : <motion.div
+                    className={styles.defaultForecast}
+                    initial={{ y: 10, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    exit={{ y: -10, opacity: 0 }}
+                    transition={{ duration: 0.4 }}
+                    layout
+                  />
+                }
             </ul>
           </div>
         </div>
