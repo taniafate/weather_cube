@@ -2,12 +2,15 @@
 
 
 ### The type of stack used in this application consists of frontend technology:
-React (React Function Components, React Hooks),
-React Router,
-Redux Toolkit (RTK Query),
-OpenWeather API,
-TypeScript,
-SCSS modules,
-Building an Adaptive Application.
+
+| Number |                  Technology                   |
+|-------:|-----------------------------------------------|
+|       1| React (React Function Components, React Hooks)|
+|       2| React Router                                  |
+|       3| Redux Toolkit (RTK Query)                     |
+|       4| OpenWeather API                               |
+|       5| TypeScript                                    |
+|       6| SCSS modules                                  |
+|       7| Building an Adaptive Application              |
 
 The design of WEATHER.CUBE app was also developed by me using Figma.
