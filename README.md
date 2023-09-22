@@ -11,6 +11,7 @@
 |       4| OpenWeatherMap API                            |
 |       5| TypeScript                                    |
 |       6| SCSS modules                                  |
-|       7| Building an Adaptive Application              |
+|       7| Framer Motion                                 |
+|       8| Building an Adaptive Application              |
 
 The design of WEATHER.CUBE app was also developed by me using Figma.
