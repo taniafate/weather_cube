@@ -15,3 +15,9 @@
 |       8| Building an Adaptive Application              |
 
 The design of WEATHER.CUBE app was also developed by me using Figma.
+
+### The implemented functionality consists of:
+- Weather app: getting data from the API about the current weather and the forecast for the near future.
+- The search is carried out by city.
+- SPA routing. Custom 404 Error Page.
+- Responsive web design.
